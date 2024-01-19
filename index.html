@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/output.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Document</title>
+  </head>
+  <body class="relative">
+    <!-- ----------------------------NAVBAR SECTION START ------------------------------------ -->
+    <nav
+      class="w-full md:py-8 py-6 md:px-12 px-4 bg-white shadow-sm flex items-center justify-between fixed top-0 left-0 z-10"
+    >
+      <div class="nav_img">
+        <img src="/image/logo.png" alt="" />
+      </div>
+      <!-- HAMBURGER -->
+      <div class="lg:hidden block">
+        <button class="menu_btn">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+      <div class="link lg:block hidden">
+        <ul class="list-none flex items-center">
+          <li class="ms-6">
+            <a
+              href="#home"
+              class="uppercase font-semibold text-[15px] transition duration-300 hover:text-dark-yellow relative nav-link"
+              >home</a
+            >
+          </li>
+          <li class="ms-6">
+            <a
+              href="#about"
+              class="uppercase font-semibold text-[15px] transition duration-300 hover:text-dark-yellow relative nav-link"
+              >about</a
+            >
+          </li>
+          <li class="ms-6">
+            <a
+              href="#menu"
+              class="uppercase font-semibold text-[15px] transition duration-300 hover:text-dark-yellow relative nav-link"
+              >menu</a
+            >
+          </li>
+          <li class="ms-6">
+            <a
+              href="#features"
+              class="uppercase font-semibold text-[15px] transition duration-300 hover:text-dark-yellow relative nav-link"
+              >features</a
+            >
+          </li>
+          <li class="ms-6">
+            <a
+              href="#blog"
+              class="uppercase font-semibold text-[15px] transition duration-300 hover:text-dark-yellow relative nav-link"
+              >blog</a
+            >
+          </li>
+          <li class="ms-6">
+            <a
+              href="#"
+              class="uppercase font-semibold text-[15px] transition duration-300 hover:text-dark-yellow"
+              ><i class="fa fa-shopping-cart"></i
+            ></a>
+          </li>
+          <li class="ms-6">
+            <a
+              href="#"
+              class="uppercase font-semibold text-[15px] transition duration-300 hover:text-dark-yellow"
+              ><i class="fa fa-search"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- MOBILE MENU -->
+      <div
+        class="lg:hidden block fixed top-0 z-20 left-[-50%] md:w-[30%] w-[50%] h-[100vh] shadow-md bg-dark-yellow pt-6 offcanvas animation duration-300"
+      >
+        <button
+          class="absolute top-[10px] right-[10px] text-white closeMenu text-[30px]"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul
+          class="list-none flex items-center justify-center flex-col h-[100vh]"
+        >
+          <li class="mb-4">
+            <a
+              href="#home"
+              class="uppercase navLink font-semibold text-[15px] transition duration-300 hover:text-white focus:text-white"
+              >home</a
+            >
+          </li>
+          <li class="mb-4">
+            <a
+              href="#about"
+              class="uppercase navLink font-semibold text-[15px] transition duration-300 hover:text-white focus:text-white"
+              >about</a
+            >
+          </li>
+          <li class="mb-4">
+            <a
+              href="#menu"
+              class="uppercase navLink font-semibold text-[15px] transition duration-300 hover:text-white focus:text-white"
+              >menu</a
+            >
+          </li>
+          <li class="mb-4">
+            <a
+              href="#features"
+              class="uppercase navLink font-semibold text-[15px] transition duration-300 hover:text-white focus:text-white"
+              >features</a
+            >
+          </li>
+          <li class="mb-4">
+            <a
+              href="#blog"
+              class="uppercase navLink font-semibold text-[15px] transition duration-300 hover:text-white focus:text-white"
+              >blog</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ---------------------------- HERO SECTION START ------------------------------------ -->
+    <div
+      class="section hero-section w-full md:h-[100vh] h-[90vh] bg-no-repeat bg-center bg-fixed relative flex items-center justify-center mt-10 md:px-12 px-4"
+      style="background-image: url(/image/hero-img.jpg); z-index: 1"
+    >
+      <div
+        class="overlay absolute top-0 left-0 w-full h-full"
+        style="background-color: rgba(0, 0, 0, 0.7)"
+        style="z-index: -1"
+      ></div>
+      <div
+        class="hero_content lg:w-[85%] mx-auto flex items-center justify-center flex-col z-10"
+      >
+        <p
+          class="lg:text-[50px] md:text-[35px] text-[25px] font-stylish text-dark-yellow font-normal capitalize"
+        >
+          creative of talented chefs
+        </p>
+        <h1
+          class="text-white font-extrabold capitalize lg:text-[80px] md:text-[60px] text-[30px] font-heading"
+        >
+          for unique occupation
+        </h1>
+        <a
+          href=""
+          class="px-6 lg:py-[15px] py-[10px] text-[16px] rounded-full border-[2px] border-dark-yellow bg-transparent uppercase font-bold text-dark-yellow transion duration-300 hover:bg-dark-yellow focus:bg-dark-yellow hover:text-white focus:text-white mt-4"
+          >reserve now</a
+        >
+      </div>
+    </div>
+
+    <!-- ----------------------------STEACK SECTION START ------------------------------------ -->
+    <div class="steak_section md:py-[100px] py-[80px] md:px-12 px-4">
+      <div class="heading text-center lg:w-[60%] sm:w-[70%] w-[90%] mx-auto">
+        <p
+          class="md:text-[30px] text-[25px] font-stylish text-dark-yellow font-normal capitalize"
+        >
+          creative of talented chefs
+        </p>
+        <h2
+          class="capitalize text-light-black font-bold font-heading md:text-[45px] text-[35px]"
+        >
+          We are steak in!
+        </h2>
+        <img src="/image/shape.png" class="block mx-auto my-[15px]" alt="" />
+        <p
+          class="text-light-text"
+          style="text-align: justify; text-align-last: center"
+        >
+          Steak In has the perfect place to enjoy fine food and great cocktails
+          with excellent service, in comfortable atmospheric surroundings. We
+          have a soft dining room, combined with an open kitchen.
+        </p>
+      </div>
+
+      <!-- STEAK IMG SECTION -->
+      <div class="steak_img-section grid grid-cols-2 gap-4 mt-[50px]">
+        <div class="relative steak_img">
+          <img src="/image/steak/img-1.jpg" alt="" />
+          <div
+            class="border-style absolute w-[90%] h-[90%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] border-[1px] border-dashed border-dark-yellow"
+          ></div>
+        </div>
+        <div class="relative steak_img">
+          <img src="/image/steak/img-2.jpg" alt="" />
+          <div
+            class="border-style absolute w-[90%] h-[90%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] border-[1px] border-dashed border-dark-yellow"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------- TESTMONIAL SECTION START ------------------------------------ -->
+    <div
+      class="testmonial_section md:px-12 px-4 md:py-[100px] py-[80px] bg-fixed relative z-10"
+      style="background: url(/image/testmonial-bg.jpg) no-repeat center"
+    >
+      <div
+        class="overlay absolute top-0 left-0 w-full h-full"
+        style="background-color: rgba(0, 0, 0, 0.5)"
+        style="z-index: -1"
+      ></div>
+
+      <!-- ARROW IMAGES -->
+      <img src="/image/arrow.png"       class="block z-30 absolute top-0 left-[50%] translate-x-[-50%] "  alt="">
+      <img src="/image/arrow-down.png"  class="block z-30 absolute  bottom-0 left-[50%] translate-x-[-50%]"  alt="">
+
+    </div>
+
+    <!-- ----------------------------NAVBAR SECTION START ------------------------------------ -->
+
+    <div class="w-full h-[100vh]"></div>
+    <div class="w-full h-[100vh]"></div>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9abcaa1c43.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
